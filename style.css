@@ -1,0 +1,151 @@
+@font-face {
+  font-family: crimes;
+  src: url(/Fonts/crimes.ttf);
+}
+
+@font-face {
+  font-family: daysans;
+  src: url(/Fonts/DAYSANS.ttf);
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+/* img{
+  
+} */
+
+.portimage{
+  border-radius: 25px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.button {
+  background-color: #4caf4f00;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 32px;
+  font-family: daysans;
+}
+
+.clickable{
+  margin-top: 120px;
+
+}
+
+body {
+  background-color: rgb(15, 15, 15);
+}
+
+h1 {
+  font-family: 'crimes';
+  color: rgb(203, 203, 203);
+  font-size: 72px;
+}
+
+h2 {
+  font-family: 'crimes';
+  color: rgb(203, 203, 203);
+  font-size: 58px;
+}
+
+h3 {
+  font-family: 'daysans';
+  color: rgb(203, 203, 203);
+  font-size: 58px;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  /* height: 100%; */
+  padding: 400px 10px 10px 10px;
+  text-align: center;
+}
+
+.centertitle {
+  text-align: center;
+}
+.rotate {
+  transform-origin: 0 0;
+  transform: rotate(-5deg);
+}
+
+.textBlock {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: auto;
+  width: 75%;
+  font-size: 24px;
+  height: 100vh;
+  /* align-items: center; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.block {
+  width: 35%;
+  margin: auto;
+}
+
+.fullHeight {
+  height: 60vh;
+}
+
+p {
+  color: rgb(203, 203, 203);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.cv {
+  width: 100%;
+}
+.portfolio {
+  width: 75%;
+  margin: auto;
+  flex-direction: column;
+}
+
+.portfolioblock {
+  padding: 100px 10px 10px 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.portfoliosection {
+  width: 50%;
+  margin: 15px;
+}
+
+mark.red {
+  color: rgb(212, 56, 56);
+  background: none;
+}
+mark.bigger {
+  font-size: 36px;
+}
+
+.textcolumn {
+  width: 15%;
+  text-align: justify;
+}
+
+.background {
+  /* background-image: url("/Img/bg4.png"); */
+}
