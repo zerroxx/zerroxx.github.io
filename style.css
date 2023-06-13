@@ -137,7 +137,14 @@ mark.red {
   color: rgb(212, 56, 56);
   background: none;
 }
+
+mark.white {
+  color: rgb(203, 203, 203);
+  background: none;
+}
+
 mark.bigger {
+  background: none;
   font-size: 36px;
 }
 
@@ -148,4 +155,10 @@ mark.bigger {
 
 .background {
   /* background-image: url("/Img/bg4.png"); */
+}
+
+@media screen and (max-width: 1200px) {
+
+  
+
 }
