@@ -158,7 +158,30 @@ mark.bigger {
 }
 
 @media screen and (max-width: 1200px) {
-
+  h3{
+    font-size: 32px;
+  }
   
+  
+  
+  .center {
+    margin: auto;
+    /* width: 50%; */
+    /* height: 100%; */
+    padding: 15px;
+    text-align: center;
+  }
 
+  .portfolioblock {
+    /* padding: 100px 10px 10px 10px; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .portfoliosection{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  }
 }
