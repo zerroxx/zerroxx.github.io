@@ -148,6 +148,13 @@ mark.bigger {
   font-size: 36px;
 }
 
+mark.kerningshit{
+  background: none;
+  color: rgb(203, 203, 203);
+
+  letter-spacing: -10px;
+}
+
 .textcolumn {
   width: 15%;
   text-align: justify;
