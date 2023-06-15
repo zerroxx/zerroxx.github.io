@@ -162,11 +162,25 @@ mark.bigger {
   .fullHeight {
     height: 100vh;
     padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .clickable{
-    /* margin-top: 50vh; */
-  
+    padding: 10px;
+    /* margin: auto; */
+  }
+
+  .textBlock{
+    display: flex;
+    flex-direction: column-reverse;
+    /* margin: auto; */
+    /* justify-content: center; */
+  }
+
+  p{
+    font-size: 12;
   }
 
   h1{
@@ -180,7 +194,20 @@ mark.bigger {
   }
 
   h3{
-    font-size: 42px;
+    font-size: 36px;
+  }
+  
+  mark.bigger {
+    background: none;
+    font-size: 26px;
+  }
+
+  .block{
+    width: 95%;
+    margin: auto;
+    padding: 0;
+    text-align: center;
+    font-size: 24px;
   }
 
   .button{
@@ -189,7 +216,7 @@ mark.bigger {
   
   .center {
     margin: auto;
-    /* width: 50%; */
+    width: 75vw;
     /* height: 100%; */
     padding: 15px;
     text-align: center;
